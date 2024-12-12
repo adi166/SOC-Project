@@ -29,5 +29,17 @@ One way to sharpen these skills is by building a fully automated SOC home lab. T
 
       ![image](https://github.com/user-attachments/assets/6426832b-9ef6-4008-bf32-f7e09dbfc1cd)
 
-    - 
+    - Event Detection: A Windows 10 client detects a suspicious activity.
+    - Event Analysis: Wazhu receives and analyzes the event.
+    - Alert Generation: Wazhu generates an alert if the event is deemed suspicious.
+    - Alert Distribution:
+    - The alert is sent to Shuffle for further processing.
+    - Shuffle also sends an email notification to the SOC Analyst.
+    - Case Management: Shuffle creates a case in TheHive and assigns it to the SOC Analyst.
+    - Analyst Review: The SOC Analyst reviews the alert and case details.
+    - Action Planning: The SOC Analyst decides on the appropriate response action.
+    - Action Execution: The SOC Analyst instructs Shuffle to execute the action.
+    - Action Implementation: Shuffle sends the action to Wazhu for implementation.
+    - Action Completion: Wazhu performs the action to mitigate the threat.
 
+2. 
